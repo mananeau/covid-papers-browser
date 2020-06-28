@@ -17,7 +17,8 @@ MODELS_FINETUNED = {
     'scibert-nli': 'gsarti/scibert-nli',
     'biobert-nli': 'gsarti/biobert-nli',
     'covidbert-nli': 'gsarti/covidbert-nli',
-    'clinicalcovidbert-nli':'manueltonneau/clinicalcovid-bert-nli'
+    'clinicalcovidbert-nli':'manueltonneau/clinicalcovid-bert-nli',
+    'bert-base-cased-conversational-nli': 'manueltonneau/bert-base-cased-conversational-nli'
 }
 
 MODELS = {**MODELS_PRETRAINED, **MODELS_FINETUNED}
